@@ -1,0 +1,9 @@
+// webpack  - module bundling
+
+// babel  -  javascript compiler/transpiler is used to convert jsx into javascript which is not done by browser.
+// also it converts code written in ecmaScript 2015+ into backward compatible version of JS for older and currentversions  of browser
+
+// virtual dom is an in-memory representation of real dom.
+// it determines the most suitable way to update actual dom efficiently.
+// when changes occur in component of react(through state variable), react first updates the virtual dom representation
+// of that component and then efficiently updates the real DOM by comparing the virtual DOM with the previous state

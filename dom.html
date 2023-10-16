@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>testing</title>
+  </head>
+  <body>
+    <p class="para" id="paraid">raghav khandelwal is my name</p>
+    <p>this is bro code</p>
+    <button id="button">Please click!</button>
+    <script>
+      const button = document.getElementById('button');
+      const para = document.getElementsByClassName('para');
+      // const paraid = document.getElementById('paraid');
+
+
+      const clickHandler = function() {
+        console.log(para);
+        console.log(para.length);
+        para[0].textContent = 'my name is Raghav khandelwal'
+        // paraid.textContent = 'my name is Raghav khandelwal'
+
+      }
+      console.log('rendered unnecessarily');
+
+      button.addEventListener('click', clickHandler);
+    </script>
+  </body>
+</html>
